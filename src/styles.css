@@ -16,6 +16,11 @@
     font-weight: 500 !important;
   }
   .home{
-      height: 500px;
+      min-height: 500px;
       background-color: chocolate;
+  }
+  .gallery-img{
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
   }

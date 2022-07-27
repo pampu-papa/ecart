@@ -5,7 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 
-const routes: Routes = [];
+//const routes: Routes = [];
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -13,10 +13,10 @@ const routes: Routes = [];
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule
   ],
   exports:[
-    RouterModule,
+    //RouterModule,
     HeaderComponent,
     FooterComponent
   ]
